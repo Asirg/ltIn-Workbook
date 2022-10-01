@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/performance/static/css/main.a07e81b3.css",
-    "main.js": "/performance/static/js/main.6f4887f0.js",
-    "static/js/787.9dd48fc2.chunk.js": "/performance/static/js/787.9dd48fc2.chunk.js",
-    "index.html": "/performance/index.html",
-    "main.a07e81b3.css.map": "/performance/static/css/main.a07e81b3.css.map",
-    "main.6f4887f0.js.map": "/performance/static/js/main.6f4887f0.js.map",
-    "787.9dd48fc2.chunk.js.map": "/performance/static/js/787.9dd48fc2.chunk.js.map"
+    "main.css": "/ltIn-Workbook/static/css/main.a07e81b3.css",
+    "main.js": "/ltIn-Workbook/static/js/main.5fbb1f52.js",
+    "index.html": "/ltIn-Workbook/index.html",
+    "main.a07e81b3.css.map": "/ltIn-Workbook/static/css/main.a07e81b3.css.map",
+    "main.5fbb1f52.js.map": "/ltIn-Workbook/static/js/main.5fbb1f52.js.map"
   },
   "entrypoints": [
     "static/css/main.a07e81b3.css",
-    "static/js/main.6f4887f0.js"
+    "static/js/main.5fbb1f52.js"
   ]
 }
