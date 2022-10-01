@@ -32,11 +32,14 @@ const nestedRoutes = (routes) => (
 
 const App = () => {
   return (
-    <BrowserRouter basename='/'>
-      <Routes>
-        {nestedRoutes(routesConfig)}
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter basename='/ltIn-Workbook'>
+        <Routes>
+          {nestedRoutes(routesConfig)}
+        </Routes>
+      </BrowserRouter>
+    </>
+      
   )
 }
 
