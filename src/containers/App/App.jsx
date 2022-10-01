@@ -1,10 +1,42 @@
+import { 
+  BrowserRouter,
+  Route, 
+  Routes,
+  Outlet,
+} from 'react-router-dom';
 import PropTypes from 'prop-types';
+
+import routesConfig from '@routes/routesConfig';
 
 import styles from './App.module.css';
 
-const App = ({ prop }) => {
+const nestedRoutes = (routes) => (
+    <>
+      { routes.map((route) => (
+        <Route
+          key={route.path}
+          exact={route.exact}
+          path={route.path}
+          element={route.element}
+        >
+          { route.routes && (
+              <>
+                <Route index element={route.indexElemet}/>
+                {nestedRoutes(route.routes)}
+              </>
+          )}
+        </Route>
+      ))}
+    </>
+  )
+
+const App = () => {
   return (
-    <h1>Hello</h1>
+    <BrowserRouter basename='/'>
+      <Routes>
+        {nestedRoutes(routesConfig)}
+      </Routes>
+    </BrowserRouter>
   )
 }
 
