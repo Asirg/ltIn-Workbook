@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ltIn-Workbook/static/css/main.a07e81b3.css",
-    "main.js": "/ltIn-Workbook/static/js/main.5fbb1f52.js",
+    "main.js": "/ltIn-Workbook/static/js/main.b2c7648c.js",
     "index.html": "/ltIn-Workbook/index.html",
     "main.a07e81b3.css.map": "/ltIn-Workbook/static/css/main.a07e81b3.css.map",
-    "main.5fbb1f52.js.map": "/ltIn-Workbook/static/js/main.5fbb1f52.js.map"
+    "main.b2c7648c.js.map": "/ltIn-Workbook/static/js/main.b2c7648c.js.map"
   },
   "entrypoints": [
     "static/css/main.a07e81b3.css",
-    "static/js/main.5fbb1f52.js"
+    "static/js/main.b2c7648c.js"
   ]
 }
