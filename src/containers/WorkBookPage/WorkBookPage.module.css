@@ -1,0 +1,7 @@
+.wrapper{
+    display: flex;
+}
+main{
+    padding: 50px 0px 0px 20px;
+    height: 120vh;
+}
