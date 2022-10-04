@@ -14,34 +14,6 @@
     padding: 0px;
     margin: 5px 0px 0px 0px;
 }
-.item{
-    padding: 10px 5px;
-    transition: var(--transion-fast);
-}
-.item:hover{
-    background-color: var(--color-dark-light-gray);
-    box-shadow: 0px 0px 5px var(--color-dark-light-gray);
-}
-
-.item__navlink{
-    text-decoration: none;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-.item__icon{
-    width: var(--size-medium-button);
-    height: var(--size-medium-button);
-    filter: var(--filter-color-white);
-
-    margin: 0px 10px 0px 0px;
-}
-
-.item__label{
-    color: white;
-}
 .list{
 
 }
