@@ -1,4 +1,6 @@
 :root{
+  --color-white: #eeeeee;
+
   --color-dark-black: #202124;
   --color-dark-light-black: #43454b;
   --color-dark-light-gray: #60636b;
@@ -15,6 +17,7 @@
   --spacing-small: 5px;
   --spacing-medium: 10px;
 
+  --size-small-button: 20px;
   --size-medium-button: 35px;
 
   /* SIDE-BAR */

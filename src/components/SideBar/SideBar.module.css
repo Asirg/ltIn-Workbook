@@ -1,12 +1,15 @@
 .wrapper{
     width: var(--size-side-bar-current);
     background-color: var(--color-dark-light-black);
+
+    transition: var(--transion-fast);
 }
 .side-bar{
     z-index: 1;
     width: var(--size-side-bar-current);
     position: fixed;
     overflow-x: hidden;
+    transition: var(--transion-fast);
     
     padding: 50px 0px 0px 0px;
 }
@@ -14,6 +17,6 @@
     padding: 0px;
     margin: 5px 0px 0px 0px;
 }
-.list{
-
+.side-bar__divider{
+    width: 80%;
 }

@@ -1,6 +1,5 @@
 .item{
     padding: 10px 5px;
-    transition: var(--transion-fast);
 }
 .item:hover{
     background-color: var(--color-dark-light-gray);
