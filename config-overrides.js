@@ -12,7 +12,7 @@ module.exports = function override(config, env){
         '@styles': 'src/styles',
         // '@hooks': 'src/hooks',
         // '@utils': 'src/utils',
-        // '@ui': 'src/components/UI',
+        '@ui': 'src/components/UI',
         // '@store': 'src/store',
         // '@context': 'src/context',
     })(config);
